@@ -54,6 +54,9 @@ Inspired by the [LMNC Arduino 8 Step Sequencer Keyboard](https://www.lookmumnoco
 ## Arduino Dependencies
  * [Adafruit_NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel)
 
+## Note about the schematic and board
+Because this is big, I only did a small PCB for this. This is why there are random components floating above the board. For the remaining components (pots, buttons, switches, LEDs) I wired them old school with panel wiring. It was a great reminder why it's so much better to use a PCB for that instead.
+
 ## Note about 12 position switch
 The 12 position switch is not on the schematic. It's wired like a potentiometer, with the 11 2k resistors between the positions. There are several tutorials on how to do this.
 
