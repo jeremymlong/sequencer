@@ -1,6 +1,7 @@
 # Sequencer
 Inspired by the [LMNC Arduino 8 Step Sequencer Keyboard](https://www.lookmumnocomputer.com/sequencer-keyboard), but with several additional features.
 ![](images/sequencer.png)
+![](images/gates_out.jpg)
 
 ## Specs
  * 0 to 5V range
@@ -79,6 +80,7 @@ The LEDs are not included on the schematic. I directly mounted the LEDs to the p
 1. Gate A
 1. Gate B
 
-
+## Note about power
+This really needs a clean power source. I'm powering mine from my rack's supply. If I power it from a regular cheap 5V switching adapter, it's noisy.
 
 
