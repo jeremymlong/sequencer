@@ -57,8 +57,10 @@ void sequencer::loop() {
         current_display_mode = display_mode::step_count_program;
         update();
     } else if (button_state != override_key) {
+        #ifdef DEBUG
         Serial.print("button_state: ");
         Serial.println(button_state);
+        #endif
         override_key = button_state;
         current_display_mode = display_mode::stepping;
         update();
